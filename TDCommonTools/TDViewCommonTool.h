@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface TDViewCommonTool : NSObject
+
+/**
+ *  压缩图片到指定尺寸大小
+ */
++ (UIImage *)compressOriginalImage:(UIImage *)image toSize:(CGSize)size;
 
 @end

@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "TDViewCommonTool.h"
+#import "TDMonitorTools.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    do {
+        sleep(3);
+        [TDMonitorTools print_free_memory];
+        
+    } while (1);
+ 
+    
 }
 
 - (void)didReceiveMemoryWarning {

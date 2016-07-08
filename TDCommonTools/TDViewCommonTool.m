@@ -10,4 +10,11 @@
 
 @implementation TDViewCommonTool
 
++ (UIImage *)compressOriginalImage:(UIImage *)image toSize:(CGSize)size{
+    UIImage *resultImage = image;
+    UIGraphicsBeginImageContext(size);
+    [resultImage drawInRect:CGRectMake(0, 0, size.width, size.height)];
+    UIGraphicsEndImageContext();
+    return resultImage;
+}
 @end
