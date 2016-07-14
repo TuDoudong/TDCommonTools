@@ -19,8 +19,8 @@
     [super viewDidLoad];
     
     do {
+        
         sleep(3);
-        [TDMonitorTools print_free_memory];
         
     } while (1);
  

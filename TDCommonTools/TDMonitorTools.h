@@ -10,7 +10,9 @@
 #import <UIKit/UIKit.h>
 @interface TDMonitorTools : NSObject
 
-
+/**
+ *  当前运行所占内存大小
+ */
 
 + (unsigned long)GetCurrentTaskUsedMemory;
 
@@ -24,7 +26,7 @@
 /**
  *  通过苹果官方文档里面UIDevice public API来获取
  *
- *  @return 百分比（如：69%）(网上说是1%的误差，但经我测试发现并没有)
+ *  @return 百分比（如：69%）
  */
 + (float)getCurrentBatteryLevelFromPublicAPI;
 @end

@@ -26,12 +26,8 @@
     
     return  taskInfo.resident_size / 1024.0 / 1024.0;
 }
-//+ (unsigned long)currentMemory{
-//    struct mach_task_basic_info taskinfo;
-//    
-//    
-//    
-//}
+
+
 + (int)getCurrentBatteryLevel
 {
     
