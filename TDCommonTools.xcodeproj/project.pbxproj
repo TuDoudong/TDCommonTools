@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28036DD91D446B5E001C1173 /* UIImageView+TDCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 28036DD81D446B5E001C1173 /* UIImageView+TDCommonTool.m */; };
+		28036DDB1D446F57001C1173 /* angel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28036DDA1D446F57001C1173 /* angel.jpg */; };
+		28036DDF1D4470FC001C1173 /* UIView+TDFrameChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 28036DDE1D4470FC001C1173 /* UIView+TDFrameChange.m */; };
 		280EB4901D22950800A3179E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280EB48F1D22950800A3179E /* main.m */; };
 		280EB4931D22950800A3179E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 280EB4921D22950800A3179E /* AppDelegate.m */; };
 		280EB4961D22950800A3179E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280EB4951D22950800A3179E /* ViewController.m */; };
 		280EB4991D22950800A3179E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280EB4971D22950800A3179E /* Main.storyboard */; };
 		280EB49B1D22950900A3179E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280EB49A1D22950900A3179E /* Assets.xcassets */; };
 		280EB49E1D22950900A3179E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280EB49C1D22950900A3179E /* LaunchScreen.storyboard */; };
-		280EB4A81D2297C000A3179E /* TDViewCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 280EB4A71D2297C000A3179E /* TDViewCommonTool.m */; };
 		280EB4C71D2F45CC00A3179E /* TDMonitorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 280EB4C61D2F45CC00A3179E /* TDMonitorTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28036DD71D446B5E001C1173 /* UIImageView+TDCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TDCommonTool.h"; sourceTree = "<group>"; };
+		28036DD81D446B5E001C1173 /* UIImageView+TDCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TDCommonTool.m"; sourceTree = "<group>"; };
+		28036DDA1D446F57001C1173 /* angel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angel.jpg; sourceTree = "<group>"; };
+		28036DDC1D446FEB001C1173 /* TDHeadFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDHeadFile.h; sourceTree = "<group>"; };
+		28036DDD1D4470FC001C1173 /* UIView+TDFrameChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TDFrameChange.h"; sourceTree = "<group>"; };
+		28036DDE1D4470FC001C1173 /* UIView+TDFrameChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TDFrameChange.m"; sourceTree = "<group>"; };
 		280EB48B1D22950800A3179E /* TDCommonTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDCommonTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		280EB48F1D22950800A3179E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		280EB4911D22950800A3179E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,8 +36,6 @@
 		280EB49A1D22950900A3179E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280EB49D1D22950900A3179E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280EB49F1D22950900A3179E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		280EB4A61D2297C000A3179E /* TDViewCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDViewCommonTool.h; sourceTree = "<group>"; };
-		280EB4A71D2297C000A3179E /* TDViewCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDViewCommonTool.m; sourceTree = "<group>"; };
 		280EB4C51D2F45CC00A3179E /* TDMonitorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDMonitorTools.h; sourceTree = "<group>"; };
 		280EB4C61D2F45CC00A3179E /* TDMonitorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDMonitorTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,10 +95,14 @@
 		280EB4A51D22970300A3179E /* commonTools */ = {
 			isa = PBXGroup;
 			children = (
-				280EB4A61D2297C000A3179E /* TDViewCommonTool.h */,
-				280EB4A71D2297C000A3179E /* TDViewCommonTool.m */,
 				280EB4C51D2F45CC00A3179E /* TDMonitorTools.h */,
 				280EB4C61D2F45CC00A3179E /* TDMonitorTools.m */,
+				28036DD71D446B5E001C1173 /* UIImageView+TDCommonTool.h */,
+				28036DD81D446B5E001C1173 /* UIImageView+TDCommonTool.m */,
+				28036DDD1D4470FC001C1173 /* UIView+TDFrameChange.h */,
+				28036DDE1D4470FC001C1173 /* UIView+TDFrameChange.m */,
+				28036DDC1D446FEB001C1173 /* TDHeadFile.h */,
+				28036DDA1D446F57001C1173 /* angel.jpg */,
 			);
 			name = commonTools;
 			sourceTree = "<group>";
@@ -158,6 +168,7 @@
 				280EB49E1D22950900A3179E /* LaunchScreen.storyboard in Resources */,
 				280EB49B1D22950900A3179E /* Assets.xcassets in Resources */,
 				280EB4991D22950800A3179E /* Main.storyboard in Resources */,
+				28036DDB1D446F57001C1173 /* angel.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,11 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28036DD91D446B5E001C1173 /* UIImageView+TDCommonTool.m in Sources */,
 				280EB4C71D2F45CC00A3179E /* TDMonitorTools.m in Sources */,
+				28036DDF1D4470FC001C1173 /* UIView+TDFrameChange.m in Sources */,
 				280EB4961D22950800A3179E /* ViewController.m in Sources */,
 				280EB4931D22950800A3179E /* AppDelegate.m in Sources */,
 				280EB4901D22950800A3179E /* main.m in Sources */,
-				280EB4A81D2297C000A3179E /* TDViewCommonTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/donghuixiang/TDCommonTools/TDCommonTools/TDCommonTools/TDHeadFile.h;
 				INFOPLIST_FILE = TDCommonTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -301,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/donghuixiang/TDCommonTools/TDCommonTools/TDCommonTools/TDHeadFile.h;
 				INFOPLIST_FILE = TDCommonTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
