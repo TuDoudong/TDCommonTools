@@ -2,7 +2,7 @@
 //  UIImageView+TDCommonTool.m
 //  TDCommonTools
 //
-//  Created by 董慧翔 on 16/7/24.
+//  Created by TudouDong on 16/7/24.
 //  Copyright © 2016年 TudouDong. All rights reserved.
 //
 
@@ -39,6 +39,8 @@
 }
 
 
+#pragma mark - func
+
 - (UIImage *)compressOriginalToSize:(CGSize)size{
     
     UIImage *resultImage = self.image;
@@ -55,9 +57,6 @@
     
     
     
-    
-    CGSize imageViewSize = self.frame.size;
-    
     CGFloat w = (CGFloat)CGImageGetWidth(inImage);
     CGFloat h = (CGFloat)CGImageGetHeight(inImage);
     CGRect rect = {{0,0},{w,h}};
@@ -67,14 +66,12 @@
     if (!(self.imageHeight == h && self.imageWidth == w && self.context)) {
         self.imageWidth = w;
         self.imageHeight = h;
-        NSLog(@"imageWidth:%f w:%f",self.imageWidth,w);
-        NSLog(@"imageHeight:%f h:%f",self.imageHeight,h);
-        NSLog(@"context:%@",self.context);
         cgctx = [self createARGBBitmapContextFromImage:inImage];
         self.context = cgctx;
     }else{
         cgctx = self.context;
     }
+    
     
     
     // Create off screen bitmap context to draw the image into. Format ARGB is 4 bytes for each pixel: Alpa, Red, Green, Blue

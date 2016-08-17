@@ -2,7 +2,7 @@
 //  UIImageView+TDCommonTool.h
 //  TDCommonTools
 //
-//  Created by 董慧翔 on 16/7/24.
+//  Created by TudouDong on 16/7/24.
 //  Copyright © 2016年 TudouDong. All rights reserved.
 //
 
